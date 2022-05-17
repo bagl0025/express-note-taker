@@ -34,6 +34,17 @@ app.post('/api/notes', (req, res) => {
   res.json(noteFile);
 });
 
+app.delete('/api/notes/:id', (req, res) => {
+  const noteFile = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));  
+  const id2del = req.params.id;
+  const indexOfObject = noteFile.findIndex(object => {
+    return object.id === id2del;
+  });
+  noteFile.splice(indexOfObject, 1);
+  fs.writeFileSync('./db/db.json', JSON.stringify(noteFile));
+  res.json(noteFile);
+});
+
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });

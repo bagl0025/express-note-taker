@@ -29,7 +29,7 @@
   Save button appears when you add new note <img src="./assets/noteS.png" alt="save note screenshot" width="600"/>
   
   ## License
-  This software is under the [MIT](https://opensource.org/licenses/MIT) license.
+  This software is under the [MIT](./LICENSE) license.
   ## Contribute
   Refer to [Contributor Covenant](https://www.contributor-covenant.org/) for contribution guidelines.
 

@@ -22,11 +22,17 @@
   ## Usage
   Click on the link under `Deployed App` to go to the app and click `Get Started`. If any notes are present they will be shown on the left. If you click on a note it's contents will be displayed on the right. You can add, view, or delete notes. When you have entered a new note click the save (disk icon) button to save it. If you are viewing a note you can click the plus button to create a new note. The following images demonstrate this.
 
-  Home page on Heroku <img src="./assets/landing.png" alt="express note taker home page screenshot" width="600"/>
+  Home page on Heroku 
   
-  Notes displayed on left <img src="./assets/note.png" alt="notes list screenshot" width="600"/>
+  <img src="./assets/landing.png" alt="express note taker home page screenshot" width="600"/>
   
-  Save button appears when you add new note <img src="./assets/noteS.png" alt="save note screenshot" width="600"/>
+  Notes displayed on left 
+  
+  <img src="./assets/note.png" alt="notes list screenshot" width="600"/>
+  
+  Save button appears when you add new note 
+  
+  <img src="./assets/noteS.png" alt="save note screenshot" width="600"/>
   
   ## License
   This software is under the [MIT](./LICENSE) license.
